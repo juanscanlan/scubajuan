@@ -1,0 +1,26 @@
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+RewriteCond %{THE_REQUEST} /([^.]+)\.html [NC]
+RewriteRule ^ /%1 [NC,L,R]
+
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^ %{REQUEST_URI}.html [NC,L]
+
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule !.*\.php$ %{REQUEST_FILENAME}.php [QSA,L]
+
+redirect 301 /diving/ https://scubajuan.com/diving
+
+redirect 301 /faq/ https://scubajuan.com/faq
+
+redirect 301 /index/ https://scubajuan.com
+
+redirect 301 /Booking.php/ https://scubajuan.com/Booking.php
+
+redirect 301 /formconfirmation/ https://scubajuan.com/formconfirmation
+
+
+

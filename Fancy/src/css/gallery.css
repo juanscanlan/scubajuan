@@ -1,0 +1,14 @@
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+.wrapper a img {
+    width: 25%;
+    margin-bottom: 2em;
+}
+.wrapper a {
+    width: 100%;
+    /*display: inline-block;
+    float: left;*/
+    margin: 5px;
+}
