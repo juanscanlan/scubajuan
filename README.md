@@ -1,4 +1,4 @@
-# Cozumel Diving website for ScubaJuan
+# 🤿 Cozumel Diving website for ScubaJuan 🤿
 
 Link to live site: https://scubajuan.com/
 
