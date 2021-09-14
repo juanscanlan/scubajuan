@@ -13,6 +13,21 @@ Link to live site: https://scubajuan.com/
 <br clear="left"/>
 
 
-## 📄 Preview: Full Site 📄
+## 📄 Preview: Landing Page 📄
 <img src="./readMeImages/ScubaJuan-entirePage.png" width=500px>
   
+
+## 📄 Preview: Diving Page 📄
+<img src="./readMeImages/DivingServices-entirePage.png" width=500px>
+  
+
+## 📄 Preview: Snorkeling Page 📄
+<img src="./readMeImages/Snorkeling-entirePage.png" width=500px>
+  
+
+## 📄 Preview: Booking Page 📄
+<img src="./readMeImages/booking-entirePage.png" width=500px>
+  
+
+## 📄 Preview: Gallery Page 📄
+<img src="./readMeImages/mediaGallery-entirePage.png" width=500px>
